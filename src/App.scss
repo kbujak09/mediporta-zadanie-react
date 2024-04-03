@@ -1,0 +1,30 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+}
+.App {
+  padding: 0 16px;
+}
+@media (min-width: 600px) {
+  .App {
+    margin: 0 12vw;
+  }
+}
+@media (min-width: 900px) {
+  .App {
+    margin: 0 24vw;
+  }
+}
+@media (min-width: 1600px) {
+  .App {
+    margin: 0 32vw;
+  }
+}
